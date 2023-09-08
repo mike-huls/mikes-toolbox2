@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mikes-toolbox2"
+version = "0.0.0"
+description = "Testing publishing a package to pypi"
+authors = ["Mike Huls <mikehuls42@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
