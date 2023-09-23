@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mikes-toolbox2"
-version = "0.0.0"
+version = "0.0.2"
 description = "Testing publishing a package to pypi"
 authors = ["Mike Huls <mikehuls42@gmail.com>"]
 license = "MIT"
@@ -8,6 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+requests = "^2.31.0"
 
 
 [tool.poetry.group.dev.dependencies]
